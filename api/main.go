@@ -114,7 +114,7 @@ func healthReady(c *gin.Context) {
 
 func welcome(c *gin.Context) {
 	jsonResponse(c, http.StatusOK, gin.H{
-		"message": "Greeting from Ninepongsapat ✨",
+		"message": "Hello world from Ninepongsapat ✨",
 		"time":    time.Now().UTC(),
 	})
 }
@@ -218,4 +218,4 @@ func getEnv(key, fallback string) string {
 	return fallback
 }
 
-// fix for put code 
+// fix for put code
