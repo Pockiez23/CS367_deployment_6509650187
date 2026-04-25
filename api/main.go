@@ -114,7 +114,7 @@ func healthReady(c *gin.Context) {
 
 func welcome(c *gin.Context) {
 	jsonResponse(c, http.StatusOK, gin.H{
-		"message": "Hello world from Ninepongsapat ✨",
+		"message": "Hello world from world ✨",
 		"time":    time.Now().UTC(),
 	})
 }
